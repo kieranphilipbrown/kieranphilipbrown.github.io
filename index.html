@@ -37,10 +37,6 @@
 	<!-- Owl Carousel -->
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	
-	<!-- Mobile Nav -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	
 </head>	
 <body>
 
@@ -351,62 +347,27 @@
 	<!-- Footer End -->
 	
 	<!-- Additional Scripts -->
-	
-		<!-- Mobile Nav Button -->
-	
-		<script type="text/javascript">
-		jQuery(function($){
-			 $( '.menu-btn' ).click(function(){
-			 $('.main-menu').toggleClass('expand')
-			 })
-		})
-		</script>
-		
-		<!-- End Mobile Nav Button -->
-		
-		<!-- Drop Down Nav -->
-		
-		<script type="text/javascript">
-		$(document).ready(function($) {
-		$('.accordion2').find('.accordion-toggle2').click(function(){
-
-		  //Expand or collapse this panel
-		  $(this).next().slideToggle('fast');
-
-		  //Hide the other panels
-		  $(".accordion-content2").not($(this).next()).slideUp('fast');
-
-		});
-		});
-		</script>
-		
-		<!-- End Drop Down Nav -->
-		
-		<!-- Owl Slider -->
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		
-		<!-- This initialises the owl script. -->
-		
-		<script>
-		$(document).ready(function(){
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+        $(function($){
+            $('.menu-btn').click(function(){
+                $('.main-menu').toggleClass('expand');
+            });
+        })
+        $(document).ready(function($) {
+            $('.accordion2').find('.accordion-toggle2').click(function(){
+                $(this).next().slideToggle('fast'); // Expand or collapse this panel
+                $(".accordion-content2").not($(this).next()).slideUp('fast'); // Hide the other panels
+            });
 			$(".owl-carousel").owlCarousel({
-					loop:true,
-					items:1,
-					autoplay: true,
-					autoplayHoverPause: true,
-					autoplaySpeed: 500,
-					
+                autoplay: true,
+                autoplayHoverPause: true,
+                autoplaySpeed: 500,
+                items:1,
+                loop:true
 			});
-		});
-		</script>
-  
-		<!-- this script kicks the owl carousel in -->
-		<script src="js/owl.carousel.min.js"></script>
-	
-		<!-- End Owl Slider -->
-			
-	<!-- End Scripts -->
-	
+        });
+    </script>
 </body>
 </html>
