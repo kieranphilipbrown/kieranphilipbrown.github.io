@@ -6,4 +6,8 @@ $(document).ready(function($) {
         $(this).next().slideToggle('fast'); // Expand or collapse this panel
         $(".accordion-content2").not($(this).next()).slideUp('fast'); // Hide the other panels
     });
+	$('.accordion').find('.accordion-toggle').click(function(){
+        $(this).next().slideToggle('fast'); // Expand or collapse this panel
+        $(".accordion-content").not($(this).next()).slideUp('fast'); // Hide the other panels
+		});
 });
