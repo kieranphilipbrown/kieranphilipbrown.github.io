@@ -1,5 +1,26 @@
 ErrorDocument 404 /404.html
 
+Redirect 301 /products/matcha-green-tea-powder /products#!/Matcha-Green-Tea-Powder/p/69437082/category=0
+Redirect 301 /products/matchalean-50g-pouch /products#!/Premium-Matcha-Greeen-Tea/p/69552083/category=0
+Redirect 301 /knowledge-base /knowledge-base.html
+Redirect 301 /knowledge-base/what-is-matcha /knowledge-base/matcha-info/what-is-matcha
+Redirect 301 /knowledge-base/how-to-prepare-matcha /knowledge-base/how-to-guides/how-to-prepare-matcha
+Redirect 301 /knowledge-base/amino-acids-in-matcha /knowledge-base/matcha-info/amino-acids-in-matcha
+Redirect 301 /knowledge-base/antioxidants-in-matcha /knowledge-base/matcha-info/antioxidants-in-matcha
+Redirect 301 /knowledge-base/matcha-the-fat-burning-powerhouse /knowledge-base/matcha-info/the-fat-burner
+Redirect 301 /knowledge-base/matcha-and-bodybuilding /knowledge-base/matcha-info/matcha-and-bodybuilding
+Redirect 301 /knowledge-base/matcha-and-protein-powder /knowledge-base/matcha-info/matcha-and-protein-powder
+Redirect 301 /blog /knowledge-base/blog.html
+Redirect 301 /beating-d-o-m-s /knowledge-base/blog/beating-doms
+Redirect 301 /matcha-more-than-fitness /knowledge-base/blog/more-than-fitness
+Redirect 301 /matcha-pancakes /knowledge-base/how-to-guides/matcha-pancakes
+Redirect 301 /matcha-shake-and-smoothie /knowledge-base/how-to-guides/matcha-shake-and-smoothie
+Redirect 301 /beta-carotene /knowledge-base/blog/beta-carotene
+Redirect 301 /benefits-of-l-theanine /knowledge-base/blog/benefits-of-l-theanine
+Redirect 301 /cart /products#!/~/cart
+Redirect 301 /delivery-information /delivery
+Redirect 301 /terms /terms-and-conditions
+
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d 
 RewriteCond %{REQUEST_FILENAME}\.html -f 
