@@ -773,8 +773,14 @@ li.nav-item.accordion-content2.default2 {
 	background-color: #e7e7e8;
 }
 
+.form-contain h2, .form-contain p {
+	font-family: 'Roboto',calibri,sans-serif;
+	padding: 30px;
+}
+
 form {
 	padding: 30px;
+    font-family: 'Roboto',calibri,sans-serif;
 }
 
 .input {
@@ -809,8 +815,8 @@ textarea {
 }
 
 input.button {
-	width: 240px;
-    height: 50px;
+	width: 140px;
+    height: 40px;
     background-color: #07aa07;
 	color: #fff;
     -webkit-transition: background-color 150ms ease-in;
@@ -818,6 +824,7 @@ input.button {
     font-family: calibri;
     font-size: 18px;
     margin: 25px auto;
+	line-height: 0px;
     text-align: center;
 }
 
