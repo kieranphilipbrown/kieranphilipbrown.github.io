@@ -770,18 +770,38 @@ li.nav-item.accordion-content2.default2 {
 
 .form-contain {
 	width: 100%;
-	border: 1px solid grey;
 	background-color: #e7e7e8;
 }
 
-label,input,textarea,select {
-	display: block;
-	margin: 20px 0 20px 0;
-	width: 100%;
+form {
+
 }
 
-text-area {
-	height: 12em;
+.input {
+    background-color: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    line-height: 1.5em;
+    margin: 0 0 2em 0;
+    outline: none;
+    padding: 1em;
+    width: 100%;
+}
+
+label {
+    display: block;
+    height: 2em;
+    line-height: 2em;
+}
+
+input, label {
+    padding: 10px 0;
+}
+
+textarea {
+    height: 12em;
 }
 
 .hide {
