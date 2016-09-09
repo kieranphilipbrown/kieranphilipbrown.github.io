@@ -775,11 +775,15 @@ li.nav-item.accordion-content2.default2 {
 
 .form-contain h2, .form-contain p {
 	font-family: 'Roboto',calibri,sans-serif;
-	padding: 30px;
+	padding-left: 30px;
+}
+
+.form-contain h2 {
+	padding-top:30px;
 }
 
 form {
-	padding: 30px;
+	padding: 5px 30px;
     font-family: 'Roboto',calibri,sans-serif;
 }
 
