@@ -771,6 +771,7 @@ li.nav-item.accordion-content2.default2 {
 .form-contain {
 	width: 100%;
 	background-color: #e7e7e8;
+	text-align: center;
 }
 
 .form-contain h2, .form-contain p {
@@ -783,7 +784,7 @@ li.nav-item.accordion-content2.default2 {
 }
 
 form {
-	padding: 5px 30px;
+	padding: 5px 90px;
     font-family: 'Roboto',calibri,sans-serif;
 }
 
@@ -819,6 +820,8 @@ textarea {
 }
 
 input.button {
+	-webkit-appearance: none;
+	box-sizing: border-box;
 	width: 140px;
     height: 40px;
     background-color: #07aa07;
