@@ -766,6 +766,28 @@ li.nav-item.accordion-content2.default2 {
 	margin-right: 15px;
 }
 
+/******************* Review Form *******************/
+
+.form-contain {
+	width: 100%;
+	border: 1px solid grey;
+	background-color: #e7e7e8;
+}
+
+label,input,textarea,select {
+	display: block;
+	margin: 20px 0 20px 0;
+	width: 100%;
+}
+
+text-area {
+	height: 12em;
+}
+
+.hide {
+	display: none;
+}
+
 /******************* Footer *******************/
 
 footer {
