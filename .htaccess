@@ -20,6 +20,7 @@ Redirect 301 /benefits-of-l-theanine https://www.matchaletic.co.uk/knowledge-bas
 Redirect 301 /cart https://www.matchaletic.co.uk/products#!/~/cart
 Redirect 301 /delivery-information https://www.matchaletic.co.uk/delivery
 Redirect 301 /terms https://www.matchaletic.co.uk/terms-and-conditions
+Redirect 301 /wholesale https:www.google.com
 
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d 
