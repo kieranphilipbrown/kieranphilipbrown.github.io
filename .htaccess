@@ -1,3 +1,4 @@
+RewriteEngine on RewriteRule
 Redirect 301 /products/matcha-green-tea-powder https://www.matchaletic.co.uk/products#!/Matcha-Green-Tea-Powder/p/69437082/category=0
 Redirect 301 /products/matchalean-50g-pouch https://www.matchaletic.co.uk/products#!/Premium-Matcha-Greeen-Tea/p/69552083/category=0
 Redirect 301 /knowledge-base https://www.matchaletic.co.uk/knowledge-base.html
