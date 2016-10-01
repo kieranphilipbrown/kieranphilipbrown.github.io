@@ -332,7 +332,7 @@ a.basket-icon {
 	height: 35px;
 	text-align: center;
 	margin-top: 10px;
-	border-bottom: 3px solid #ad21b6;
+	border-bottom: 2px solid #ad21b6;
 }
 
 .promotional-container {
@@ -770,7 +770,6 @@ li.nav-item.accordion-content2.default2 {
 
 .form-contain {
 	width: 100%;
-	background-color: #e7e7e8;
 	text-align: center;
 }
 
@@ -832,6 +831,7 @@ input.button {
     margin: 25px auto;
 	line-height: 0px;
     text-align: center;
+	border: none;
 }
 
 input.button:hover {
