@@ -332,7 +332,7 @@ a.basket-icon {
 	height: 35px;
 	text-align: center;
 	margin-top: 10px;
-	border-bottom: 2px solid #07aa07;
+	border-bottom: 3px solid #ad21b6;
 }
 
 .promotional-container {
@@ -471,9 +471,9 @@ a.basket-icon {
 }
 
 .benefit-boxes a:hover {
-	color: #fff;
-	background-color: #222;
-	border: 1px solid #222;
+	color: #07aa07;
+	background-color: #fff;
+	border: 1px solid #fff;
 }
 
 /******************* Review Page *******************/
