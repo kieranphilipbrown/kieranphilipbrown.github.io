@@ -960,6 +960,15 @@ hr.hr-foot {
 	
 /* Media Queries */
 
+@media only screen and (max-width: 1050px) 	{
+
+/******************* Cta *******************/
+
+.cta p {
+	font-size: 13px;
+}
+}
+
 @media only screen and (max-width: 860px) 	{
 
 /******************* Nav *******************/
