@@ -770,6 +770,7 @@ li.nav-item.accordion-content2.default2 {
 	height: 80px;
 	padding-left: 10px;
 	padding-top: 32px;
+	text-transform: initial;
 }
 
 .cta-icon {
