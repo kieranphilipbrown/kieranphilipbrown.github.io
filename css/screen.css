@@ -632,6 +632,10 @@ li.nav-item.accordion-content2.default2 {
 	display: inline-block!important;
 }
 
+.blog-title {
+	font-size: 14px;
+}
+
 /******************* Button *******************/
 
 .button {
