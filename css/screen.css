@@ -60,6 +60,12 @@ h1, h2, h3, h4, p, li {
 	text-align: center;
 }
 
+::selection {
+	background-color: #07aa07;
+	color: #fff;
+	text-shadow: none;
+}
+
 /* Social Icons */
 
 .header-social-icons {
