@@ -38,10 +38,10 @@ AddCharset utf-8 .css .js .json .rss .xml
 DefaultLanguage en-GB
 
 # Protect the .htaccess file.
-<Files .htaccess>
-	Order Allow,Deny
-	Deny from all
-</Files>
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
 
 # Protect site from unauthorised content sources.
 <IfModule mod_headers.c>
