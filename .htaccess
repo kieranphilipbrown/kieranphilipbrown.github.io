@@ -1,9 +1,9 @@
 ErrorDocument 404 /404.html
 
-RewriteEngine on
+RewriteEngine on RewriteRule
 Redirect 301 www.matchaletic.co.uk/wholesale https://www.google.com
 
-RewriteEngine on
+RewriteEngine on 
 RewriteCond %{REQUEST_FILENAME} !-d 
 RewriteCond %{REQUEST_FILENAME}\.html -f 
 RewriteRule ^(.*)$ $1.html
