@@ -1,7 +1,7 @@
 ErrorDocument 404 /404.html
 
 RewriteEngine on
-Redirect 301 https://www.matchaletic.co.uk/wholesale https://www.google.com
+Redirect 301 www.matchaletic.co.uk/wholesale https://www.google.com
 
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d 
