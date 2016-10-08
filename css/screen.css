@@ -323,14 +323,14 @@ a.basket-icon {
 	text-shadow: none;
 	text-transform: uppercase;
 	padding: 3.5% 10%;
-	-webkit-transition: all 150ms ease-in;
-    transition: all 150ms ease-in;
+	-webkit-transition: all 170ms ease-in;
+    transition: all 170ms ease-in;
 }
 
 .read-more-button a:hover {
-	color: #fff;
-	background-color: #222;
-	border: 1px solid #222;
+	color: #07aa07;
+	background-color: #fff;
+	border: 1px solid #fff;
 }
 
 /******************* Promotional *******************/
