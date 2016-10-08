@@ -896,7 +896,19 @@ footer {
 	width: 20%;
 	/*padding: 2%*/;
 	float: left;
-	margin-right: 5%;
+	/*margin-right: 5%;*/
+}
+
+.footer-block:nth-child(1) {
+	margin-right: 6%;
+}
+
+.footer-block:nth-child(2) {
+	margin-right: 6%;
+}
+
+.footer-block:nth-child(3) {
+	margin-right: 7%;
 }
 
 .foot-content {
