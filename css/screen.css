@@ -515,7 +515,7 @@ blockquote p {
 /******************* Shop Now Button *******************/
 
 .shop-now-button {
-	width: 160px;
+	width: 240px;
 	height: 45px;
 	background-color: #07aa07;
 	-webkit-transition: background-color 150ms ease-in;
