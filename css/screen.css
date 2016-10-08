@@ -977,6 +977,10 @@ hr.hr-foot {
 	float: right;
 }
 
+.ecwid-logo img {
+	width: 88px;
+}
+
 p.bottom-right-text {
 	float: right;
 }
