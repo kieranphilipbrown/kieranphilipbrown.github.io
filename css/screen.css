@@ -850,7 +850,7 @@ textarea {
 	display: none;
 }
 
-form input.button {
+input.button {
 	-webkit-appearance: none;
 	box-sizing: border-box;
 	width: 240px;
@@ -868,7 +868,7 @@ form input.button {
 	cursor: pointer;
 }
 
-form input.button:hover {
+input.button:hover {
 	background-color: #222;
 }
 
