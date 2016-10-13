@@ -853,7 +853,6 @@ textarea {
 input.button {
 	-webkit-appearance: none;
 	box-sizing: border-box;
-	width: 240px;
     height: 40px;
     background-color: #07aa07;
 	color: #fff;
