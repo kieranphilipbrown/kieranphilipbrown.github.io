@@ -1,0 +1,6 @@
+# File		  : /robots.txt
+# Copyright       : Matchaletic 2016
+
+User-agent: *
+
+sitemap: https://www.matchaletic.co.uk/sitemap.xml
