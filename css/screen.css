@@ -367,7 +367,7 @@ a.basket-icon {
 }
 
 .bar-block img {
-	line-height: 35px;
+	line-height: 38px;
 	margin-right: 10px;
 	display: inline-block;
 	float: left;
@@ -376,7 +376,7 @@ a.basket-icon {
 .promotional-bar p {
 	color: #fff;
 	display:  inline-block;
-	line-height: 35px;
+	line-height: 38px;
 	font-family: 'Raleway', arial, sans-serif;
 	font-weight: bold;
 	font-size: 0.75rem;
@@ -1225,7 +1225,7 @@ p.bottom-right-text {
 .bar-block img {
     margin-right: 6px;
     width: 14px;
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 }
