@@ -249,7 +249,7 @@ header {
 	text-transform: uppercase;
 	-webkit-transition: color 150ms ease-in;
 	transition: color 150ms ease-in;
-	font-size: 13px;
+	font-size: 0.9rem;
 	font-family: Raleway, arial, sans-serif;
 }
 	
@@ -379,7 +379,7 @@ a.basket-icon {
 	line-height: 35px;
 	font-family: 'Raleway', arial, sans-serif;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 0.75rem;
 }
 
 /******************* Main Content *******************/
@@ -1053,7 +1053,7 @@ p.bottom-right-text {
 }
 
 .promotional-bar p {
-	font-size: 9px;
+	font-size: 0.625rem;
 }
 
 .benefit-boxes {
