@@ -649,7 +649,7 @@ li.nav-item.accordion-content2.default2 {
 }
 
 .blog-title {
-	font-size: 14px;
+	font-size: 0.875rem;
 }
 
 /******************* Button *******************/
@@ -1109,7 +1109,7 @@ li.drop-down-text {
 
 .main-menu ul li.drop-down-text a {
 	color: #07aa07;
-	font-size: 11px;
+	font-size: 0.6875rem;
 }
 
 /******************* Slide Text *******************/
