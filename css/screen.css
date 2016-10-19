@@ -66,6 +66,15 @@ h1, h2, h3, h4, p, li {
 	text-shadow: none;
 }
 
+p.quote {
+	padding: 60px 80px;
+    border-top: 3px solid #e7e7e8;
+    border-bottom: 3px solid #e7e7e8;
+    font-size: 18px;
+    margin: 60px 0;
+	text-align: center;
+}
+
 /* Social Icons */
 
 .header-social-icons {
@@ -1077,6 +1086,10 @@ h1 {
 
 .intro-box {
 	margin: 20px 0px;
+}
+
+p.quote {
+	padding: 50px 40px;
 }
 
 /******************* Drop Down Nav *******************/
