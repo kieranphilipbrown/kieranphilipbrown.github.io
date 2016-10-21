@@ -116,6 +116,14 @@ header {
 	padding-right: 4%;
 }
 
+.pb-page-width {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
 .logo {
 	display: inline-block;
 	/*background-color: red;*/
@@ -1231,6 +1239,10 @@ p.bottom-right-text {
 .promotional-bar p {
     font-size: 0.4985rem;
 
+}
+
+.pb-page-width {
+	width: 100%;
 }
 
 .bar-block {
