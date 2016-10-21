@@ -1234,8 +1234,8 @@ p.bottom-right-text {
 }
 
 .bar-block {
-    width: 28%;
-    float: centre;
+    width: 32%;
+    float: none;
 }
 
 }
