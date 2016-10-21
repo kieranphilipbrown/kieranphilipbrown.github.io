@@ -1230,6 +1230,12 @@ p.bottom-right-text {
 
 .promotional-bar p {
     font-size: 0.4985rem;
+
+}
+
+.bar-block {
+    width: 28%;
+    float: centre;
 }
 
 }
