@@ -629,6 +629,16 @@ li.nav-item.accordion-content2.default2 {
 	height: auto;
 	width: 240px;
 	margin: 20px 10px;
+	box-shadow: 1px 1px 6px #999898;
+}
+
+.kb-block img {
+	border-bottom: 4px solid #009200;
+}
+
+.small {
+	font-size: 0.75rem;
+	padding: 0 10px;
 }
 
 .block-contain a {
@@ -953,7 +963,7 @@ footer {
 	-webkit-transition: color 150ms ease-in;
 	transition: color 150ms ease-in;
 	font-family: 'Raleyway', calirbi, sans-serif;
-	font-size: 0.9rem;
+	font-size: 0.8125rem;
 }
 
 .foot-content ul a:hover,  .foot-bottom-contain a:hover {
