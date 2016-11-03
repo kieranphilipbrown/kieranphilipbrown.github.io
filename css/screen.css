@@ -503,7 +503,11 @@ a.basket-icon {
 
 /******************* SVGs *******************/
 
-.sustained-focus {
+.light-bulb, .sustained-focus-bg, .light, .bulb, .man, .burn-fat-bg, .flame, .large-flame {
+	transition: .3s ease-out;
+}
+
+.sustained-focus, .sustained-energy {
 	margin: 30px 0;
 }
 
@@ -519,8 +523,24 @@ a.basket-icon {
 	fill: #222;
 }
 
-.light-bulb, .sustained-focus-bg, .light, .bulb {
-	transition: .3s ease-out;
+.sustained-energy:hover .sustained-energy-bg {
+	fill: #069206;
+}
+
+.sustained-energy:hover .man {
+	fill: #222;
+}
+
+.burn-fat:hover .burn-fat-bg {
+	fill: #069206;
+}
+
+.burn-fat:hover .flame {
+	fill: #069206;
+}
+
+.burn-fat:hover .large-flame {
+	fill: #222;
 }
 
 /******************* Review Page *******************/
