@@ -28,6 +28,10 @@ h2 {
 	color: #07aa07!important;
 }
 
+h2 span {
+	color: #fff!important;
+}
+
 h3 {
 	font-size: 1.4rem;
 	color: #07aa07!important;
