@@ -512,15 +512,15 @@ a.basket-icon {
 }
 
 .light-bulb:hover .light {
-	stroke: #fffd61;
+	stroke: #222;
 }
 
 .light-bulb:hover .bulb {
-	fill: #fffd61;
+	fill: #222;
 }
 
-.light-bulb, .sustained-focus-bg, .light {
-	transition: .4s ease-out;
+.light-bulb, .sustained-focus-bg, .light, .bulb {
+	transition: .3s ease-out;
 }
 
 /******************* Review Page *******************/
