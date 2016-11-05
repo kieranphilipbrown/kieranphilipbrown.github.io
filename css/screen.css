@@ -1047,9 +1047,13 @@ hr.hr-foot {
 }
 
 .foot-bottom-right img {
-	width: 176px;
-	margin-top: 20px;
-	float: right;
+	width: 47px;
+    margin-top: 20px;
+    float: right;
+}
+
+.foot-bottom-right img:nth-child(2), .foot-bottom-right img:nth-child(3) {
+    margin-right: 8px;
 }
 
 .ecwid-logo img {
@@ -1059,7 +1063,7 @@ hr.hr-foot {
 p.bottom-right-text {
 	float: right;
 }
-	
+
 /***************************** MEDIA QUERIES *****************************/
 
 @media only screen and (max-width: 1050px) 	{
@@ -1232,12 +1236,20 @@ footer {
 	margin: 40px 0;
 }
 
+.foot-bottom-right img:nth-child(2), .foot-bottom-right img:nth-child(3) {
+    margin: 0;
+}
+
+.ecwid-logo img {
+	width: 88px!important;
+}
+
 .foot-content img {
 	width: 70%;
 }
 
 .foot-bottom-right img {
-	width: 176px;
+	width: 47px;
 	height: 30px;
 	float: initial;
 }
