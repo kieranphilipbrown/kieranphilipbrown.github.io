@@ -1206,6 +1206,10 @@ p.quote {
 	padding: 50px 40px;
 }
 
+.live-support {
+	display: none;
+}
+
 /******************* Drop Down Nav *******************/
 
 .mobile-kb {
