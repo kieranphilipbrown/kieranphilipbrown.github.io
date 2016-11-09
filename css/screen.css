@@ -266,6 +266,10 @@ header {
 	font-size: 0.8125rem;
 	font-family: Raleway, arial, sans-serif;
 }
+
+li.nav-item:nth-child(7) {
+	background-color: #2d2c2c;
+}
 	
 .expand {
    display: block !important; 
