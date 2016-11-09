@@ -1068,6 +1068,41 @@ p.bottom-right-text {
 	float: right;
 }
 
+/******************* Live Support *******************/
+
+.live-support {
+	background-color: #07aa07;
+	cursor: pointer;
+	color: #fff!important;
+    display: inline-block;
+    position: fixed;
+	font-family: arial, sans-serif;
+    right: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    padding: .6rem 1rem;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    font-size: .8125rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    margin-right: -46px;
+    margin-bottom: 15%;
+	-webkit-transition: background-color 150ms ease-in;
+    transition: background-color 150ms ease-in;
+}
+
+.live-support:hover {
+	background-color: #ad21b6;
+}
+
+a.live-spt {
+    display: block;
+}
+
 /***************************** MEDIA QUERIES *****************************/
 
 @media only screen and (max-width: 1050px) 	{
